@@ -1,6 +1,6 @@
 # Start of react
- npx create-expo-app@latest <br>
- npm create vite@latest 01basicvite -- --template react
+ npx create-react-app project-name <br>
+ npm create vite@latest 01basicvite -- --template react (-- --template react can used if the arrow key is not working)
 
 # refresh
 Arrow functions <br>
