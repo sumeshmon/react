@@ -1,26 +1,29 @@
 import { createRoot } from "react-dom/client"
+import Header from "./Header"
+import MainContent from "./MainContent"
+import Footer from "./Footer"
+
+
 const root = createRoot(document.getElementById("root"))
 
-function MainContent() {
+function Page() {
     return (
         <>
-            <h1>React is great!</h1>
-            <p>This is para</p>
+            <Header/>
+            <MainContent/>
+            <Footer/>
         </>
-    
+        
     )
     
 }
 
 root.render(
-    <div>
-        <MainContent/>
-        <img src='/logo.png' alt="My React " className='logo'/>   
-    </div>
+   <Page/>
 )
 
 // with vanila
-const element = document.createElement('h2')
-element.className = 'header'
-element.innerText = 'i am from vanila'
-document.body.appendChild(element)
+// const element = document.createElement('h2')
+// element.className = 'header'
+// element.innerText = 'i am from vanila'
+// document.body.appendChild(element)
