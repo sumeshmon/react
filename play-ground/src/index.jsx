@@ -6,7 +6,7 @@ import Footer from "./Footer"
 
 const root = createRoot(document.getElementById("root"))
 
-function Page() {
+function App() {
     return (
         <>
             <Header/>
@@ -19,7 +19,7 @@ function Page() {
 }
 
 root.render(
-   <Page/>
+   <App/>
 )
 
 // with vanila
