@@ -16,6 +16,10 @@ import ReactDOM from "react-dom"; -->
 const root = createRoot(document.getElementById("root"))
 // 2. Render some markup to the root
 root.render(<h1>Hello, React!</h1>) 
+<br><br>
 
-
-
+Fragment<br>
+In JavaScript (specifically in React), a Fragment is a special component used to group multiple elements without adding extra DOM nodes.
+<br>
+🧩 Why use a Fragment?<br>
+Because JSX requires components to return a single parent element, but sometimes you don’t want an unnecessary <div> or wrapper in the DOM.
