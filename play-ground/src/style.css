@@ -7,10 +7,45 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #222;
     color: #fff;
+    margin: 0;
   }
   a{
     text-decoration: none;
   }
+  ul{
+    li{
+      padding: 5px 0;
+     ::marker{
+      font-size: 1.5rem;
+     }
+    }
+  }
+
   .logo{
     width: 40px;
   }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0 5px;
+    ul{
+      display: flex;
+      list-style: none;
+      li{
+        padding: 0 10px;
+        a{
+          color: orange;
+        }
+      }
+    }
+  }
+
+.main-content{
+    padding: 20px 10px;
+}
+main{
+  background-image: linear-gradient(to right, rgba(000,000,000, 0.9) 0 100%), url('./images/logo.png');
+  background-repeat: no-repeat;
+}
