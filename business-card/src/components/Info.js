@@ -8,6 +8,10 @@ function Info (){
                 <img src={image} className="people-image"/>
                 <h2>{personName}</h2>
                 <h4>{designation}</h4>
+                <div className="info-btn">
+                    <button>Email</button>
+                    <button>Linkedin</button>
+                </div>
             </picture>
         </>
     )
