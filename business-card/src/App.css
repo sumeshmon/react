@@ -1,14 +1,65 @@
 .main{
-  max-width: 220px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 10px;
-  background-color: #222;
-  color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-content: center;
-  text-align: center;
+  flex-direction: column;
 }
-.people-image{
-  width: 200px;
+.nav img{
+  width: 180px;
+}
+.hero{
+  img{
+    max-width: 100%;
+  }
+}
+.card{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  p{
+    margin: 5px 0;
+  }
+  li{
+    position: relative;
+    max-width: 33%;
+    margin: 0 10px;
+    padding: 0;
+    .product-info-tag{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #222;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+  }
+}
+.thumb{
+  img{
+    max-width: 100%;
+  }
+}
+.rating-info{
+  .star {
+    display: inline-block;
+    padding-right: 10px;
+    img{
+      width: 15px;
+    }
+  }
+  .rating{
+    font-weight: 600;
+  }
+  .rating-number{
+    font-weight: normal;
+    color: #747474;
+  }
+}
+.title{
+  color: #747474;
 }
