@@ -1,0 +1,13 @@
+.setup{
+  margin-bottom: 30px;
+  h3{
+    margin: 0 ;
+  }
+  h4{
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  img{
+    width: 60px;
+  }
+}

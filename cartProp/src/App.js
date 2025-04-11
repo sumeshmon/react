@@ -23,7 +23,6 @@ function App() {
             title= 'img elements must have an alt prop'
             price = '₹999'
             ratingCount= '4.5'
-            testBoolean = {true}
           />
           <Card 
             productStatus = "30 Available"

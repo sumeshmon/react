@@ -23,3 +23,15 @@ In JavaScript (specifically in React), a Fragment is a special component used to
 <br>
 🧩 Why use a Fragment?<br>
 Because JSX requires components to return a single parent element, but sometimes you don’t want an unnecessary <div> or wrapper in the DOM.
+
+<br><br>
+Props
+Exaple : function (a,b){
+    return 2 +3 // always 5
+    return a+b // dynamic. This is props are doing
+}
+<br>
+Props are like HTML attributes. 
+<br><br>
+<div anyProps={true}> - This will not work, because without capital react will consider as regular HTML and this div tag no attribute amed ab=nyProps. <br>
+Props are an object <br><br>

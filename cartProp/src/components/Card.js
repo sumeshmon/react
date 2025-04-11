@@ -1,23 +1,24 @@
 import cardImage from '../images/card-image-1.png'
 
-function Card(props) {
+function Card({productStatus,rating,ratingNumber,price,title}) {    
     return (
+        
         <>
 
                 <li>
                     <div className="thumb">
-                        <span className='product-info-tag'>{props.productStatus}</span>
-                        <img src={cardImage}/>
+                        <span className='product-info-tag'>{productStatus}</span>
+                        <img src={cardImage} alt="Card image"/>
                         <div className="rating-info">
-                            <span className="star"><img src={props.rating} alt="star"/></span>
-                            <span className="rating">{props.ratingCount} <span className='rating-number'>{props.ratingNumber}</span></span>
+                            <span className="star"><img src={rating} alt="star"/></span>
+                            <span className="rating"><span className='rating-number'>{ratingNumber}</span></span>
                             
                         </div>
                         <div className="title">
-                            <p>{props.title}{props.testBoolean}</p>
+                            <p>{title}</p> 
                         </div>
                         <div className="price">
-                            <span><b>From {props.price} </b> / per person</span>
+                            <span><b>From price {price}</b>  / per person</span>
                         </div>
                     </div>
                 </li>
