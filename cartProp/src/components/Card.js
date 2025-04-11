@@ -14,7 +14,7 @@ function Card(props) {
                             
                         </div>
                         <div className="title">
-                            <p>{props.title}</p>
+                            <p>{props.title}{props.testBoolean}</p>
                         </div>
                         <div className="price">
                             <span><b>From {props.price} </b> / per person</span>
